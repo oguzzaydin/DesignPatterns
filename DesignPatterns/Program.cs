@@ -1,5 +1,6 @@
 ﻿using System;
 using DesignPatterns.Behavioral.ChainOfResponsibility;
+using DesignPatterns.Structural.Composite;
 
 namespace DesignPatterns
 {
@@ -7,11 +8,7 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            var sender = new Mail()
-                .SetNext(new Notification())
-                .SetNext(new Sms());
-
-            sender.SendMessage("test");
+            Console.ReadKey();
         }
     }
 }

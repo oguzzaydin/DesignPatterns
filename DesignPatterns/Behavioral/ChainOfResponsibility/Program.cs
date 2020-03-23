@@ -1,10 +1,8 @@
-﻿using System.Net.Mail;
-
-namespace DesignPatterns.Behavioral.ChainOfResponsibility
+﻿namespace DesignPatterns.Behavioral.ChainOfResponsibility
 {
-    public class Sender
+    public class Program
     {
-        public Sender()
+        public Program()
         {
             var sender = new Mail()
                 .SetNext(new Notification())
