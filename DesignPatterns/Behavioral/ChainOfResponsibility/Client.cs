@@ -1,8 +1,8 @@
 ﻿namespace DesignPatterns.Behavioral.ChainOfResponsibility
 {
-    public class Program
+    public class Client
     {
-        public Program()
+        public Client()
         {
             var sender = new Mail()
                 .SetNext(new Notification())

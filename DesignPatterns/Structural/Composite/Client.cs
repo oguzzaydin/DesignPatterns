@@ -1,8 +1,8 @@
 ﻿namespace DesignPatterns.Structural.Composite
 {
-    public class Program
+    public class Client
     {
-        public Program()
+        public Client()
         {
             var car = new RootCategory("car");
             car.Add(new ChildCategory("hybrit"));

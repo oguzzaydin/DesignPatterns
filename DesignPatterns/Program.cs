@@ -1,5 +1,6 @@
 ﻿using System;
 using DesignPatterns.Behavioral.ChainOfResponsibility;
+using DesignPatterns.Behavioral.Mediator;
 using DesignPatterns.Structural.Composite;
 
 namespace DesignPatterns
@@ -8,6 +9,8 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
+    
+
             Console.ReadKey();
         }
     }
