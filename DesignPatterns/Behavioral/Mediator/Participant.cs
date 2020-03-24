@@ -13,7 +13,7 @@ namespace DesignPatterns.Behavioral.Mediator
         }
 
         public virtual string Name => _name;
-        public void SetChatRoom(ChatRoom chatRoom) => _chatRoom = chatRoom;
+        public void EnterToChatRoom(ChatRoom chatRoom) => _chatRoom = chatRoom;
 
         public virtual void Send(string to, string message)
         {
