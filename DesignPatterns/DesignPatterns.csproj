@@ -11,7 +11,6 @@
     <Folder Include="Behavioral\Memento\" />
     <Folder Include="Behavioral\Visitor\" />
     <Folder Include="Behavioral\TemplateMethod\" />
-    <Folder Include="Behavioral\Strategy\" />
     <Folder Include="Behavioral\State\" />
     <Folder Include="Behavioral\Observer\" />
     <Folder Include="Creational\AbstractFactory\" />
