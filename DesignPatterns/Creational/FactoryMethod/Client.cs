@@ -9,12 +9,9 @@ namespace DesignPatterns.Creational.FactoryMethod
             var vehicles = new List<VehicleCreator>
             {
                 new AirVehicle(),
-                new LandVehicle(), 
+                new LandVehicle(),
                 new SeaVehicles()
             };
-
         }
-
-
     }
 }
